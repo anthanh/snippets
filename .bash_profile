@@ -8,3 +8,5 @@ alias replicante2="sudo ssh -i [cert-file] ubuntu@[ip]"
 alias replicante3="sudo ssh -i [cert-file] ubuntu@[ip]"
 alias tracker-airfit="sudo ssh -i [cert-file] ubuntu@[ip]"
 alias sublp="open ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/"
+alias remote-debugging="~/adt/sdk/platform-tools/adb forward tcp:9222 localabstract:chrome_devtools_remote"
+
