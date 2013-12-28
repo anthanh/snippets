@@ -14,3 +14,8 @@ alias myip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '(
 alias myip2="ip a | awk '/eth0$/{print $2}' | sed 's/\/24//g'"
 alias ulimit_10240="ulimit -S -n 10240"
 alias ulimit_32768="ulimit -s 32768"
+
+
+// Ubuntu
+alias compizh="dconf write /org/compiz/profiles/unity/plugins/core/hsize"
+alias compizv="dconf write /org/compiz/profiles/unity/plugins/core/vsize"
