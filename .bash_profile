@@ -16,6 +16,6 @@ alias ulimit_10240="ulimit -S -n 10240"
 alias ulimit_32768="ulimit -s 32768"
 
 
-// Ubuntu
+// Ubuntu (.bash_aliases)
 alias compizh="dconf write /org/compiz/profiles/unity/plugins/core/hsize"
 alias compizv="dconf write /org/compiz/profiles/unity/plugins/core/vsize"
