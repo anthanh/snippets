@@ -7,6 +7,8 @@ alias myip2="ip a | awk '/eth0$/{print $2}' | sed 's/\/24//g'"
 alias ulimit_10240="ulimit -S -n 10240"
 alias ulimit_32768="ulimit -s 32768"
 
+alias uninstall="rm -R node_modules src/main/webapp/bower_components/"
+
 
 // Ubuntu (.bash_aliases)
 alias compizh="dconf write /org/compiz/profiles/unity/plugins/core/hsize"
