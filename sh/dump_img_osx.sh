@@ -5,4 +5,7 @@ diskutil list
 diskutil unmountDisk /dev/disk[your-id]
 
 # Dump
-sudo dd if=path-to.img of=/dev/rdisk[your-id] bs=1
+sudo dd if=path-to.img of=/dev/disk[your-id] bs=1m
+
+# Eject disk
+sudo diskutil eject /dev/disk
